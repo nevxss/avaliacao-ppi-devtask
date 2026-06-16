@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevTask - Portal de Suporte TI</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Central de Chamados Operacionais</h1>
+    </header>
+    
+    <main class="container">
+        <section class="formulario-box">
+            <h2>Abrir Novo Ticket</h2>
+            <form id="formCadastro">
+                <label for="txtTitulo">Resumo do Incidente:</label>
+                <input type="text" id="txtTitulo" required placeholder="Ex: Falha no acesso ao portal...">
+                
+                <label for="txtDescricao">Descrição Detalhada:</label>
+                <textarea id="txtDescricao" required placeholder="Descreva os passos para reproduzir o problema..."></textarea>
+                
+                <button type="submit">Registrar Chamado</button>
+            </form>
+        </section>
+
+        <section class="listagem-box">
+            <h2>Tickets Abertos</h2>
+            <div id="listaContainer" class="lista-grid">
+                <p class="aviso-vazio">Conectando ao servidor de suporte...</p>
+            </div>
+        </section>
+    </main>
+
+    <script src="app.js"></script> 
+</body>
+</html>
