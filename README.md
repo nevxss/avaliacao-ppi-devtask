@@ -3,9 +3,9 @@
 Este projeto é um ecossistema Web Full Stack desenvolvido para a Avaliação Processual da disciplina de Programação para Internet. O sistema permite a abertura e listagem de chamados operacionais de TI.
 
 ## Integrantes
- Alvino Mainette Santos
- Thalys Cestari Thouzo
- Amanda Marcarini Cezanhock
+ Alvino Mainette Santos  
+ Thalys Cestari Thouzo  
+ Amanda Marcarini Cezanhock  
  Jordana Wantil Tomazeli
 
 
